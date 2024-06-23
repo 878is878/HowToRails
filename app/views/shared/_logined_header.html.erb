@@ -1,0 +1,18 @@
+<header>
+  <div>
+    <nav class='navbar navbar-expend navbar-dark bg-primary d-print'>
+
+      <div class='container-fluid d-flex'>
+
+        <a class='navbar-brand text-light' herf='#'>
+          HowToRails
+        </a>
+        
+        <div class='col-auto text-end'>
+            <%= link_to 'ログアウト', logout_path, class:'btn btn-light', data:{ turbo_method: :delete} %>
+          </div>
+
+      </div> 
+
+    </nav> 
+</header>
